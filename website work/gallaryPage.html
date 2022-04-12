@@ -1,0 +1,95 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <div id = "header">
+       Photo Gallary
+        <img align = "right" src="rgu1.jpg" width = "80" height = "80" >
+    </div>
+
+    <script>
+        function onImg()
+        {
+            document.getElementById("img1").src = "meme.jpg";
+           
+        }
+        function outImg()
+        {
+            document.getElementById("img1").src = "llama.jpg";
+            
+        }
+
+        function on8thImg()
+        {
+            document.getElementById("img8").src = "meme1.jpg";
+        }
+        function out8thImg()
+        {
+            document.getElementById("img8").src = "llama8.jpg";
+        }
+    </script>
+
+
+</head>
+
+
+<body>
+    <nav>
+    
+        <a href= "mainPage.html">Home Page</a>
+        <a href= "gallaryPage.html">Photo Gallary</a>
+        <a href= "contactPage.html">Contact Us </a>
+        
+        
+        
+        </nav>
+    
+        <div id ="row">
+            <div class="column">
+        <img id = "img1" src="llama.jpg" style = "width:100%" onmouseover = "onImg()" onmouseout = "outImg()">
+        
+            </div>
+            <div class="column">
+        <img  src="llama3.jpg" style = "width:100%" >
+            </div>
+            <div class="column">
+        <img  src="llama1.jpg" style = "width:100%">
+            </div>
+            
+            <div class="column">
+
+            
+        <img  src="llama4.jpg" style = "width:100%">
+            </div>
+        </div>
+
+        <div id ="row">
+            <div class="column">
+        <img  src="llama4.jpg" style = "width:100%">
+            </div>
+            <div class="column">
+        <img  src="llama6.jpg" style = "width:100%" >
+            </div>
+            <div class="column">
+        <img  src="llama7.jpg" style = "width:100%">
+            </div>
+            
+            <div class="column">
+
+            
+        <img  id = "img8" src="llama8.jpg" style = "width:100%" onmouseover = "on8thImg()" onmouseout = "out8thImg()">
+            </div>
+        </div>
+
+        
+
+
+   
+
+
+
+</body>
+
+
+
+
+</html>
